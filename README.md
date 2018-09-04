@@ -2,11 +2,11 @@
 State of the art 3D Sign Language system for Turkish Sign Language
 
 <p>
-<img src="src/assets/demo/poster.png"/>
+<img src="src/assets/demo/poster.PNG"/>
 </p>
 
 ## Introduction
-This applicaton is intented to use by both sign language and reguler users. you can directly convert any turkish sentence into a 3D animation. 
+This applicaton is intented to use by both natural sign language users and people who want to learn sign language. You can directly convert any turkish sentence into a 3D animation. 
 
 
 ## Issues
@@ -18,10 +18,16 @@ This project can be developed further by adding more sign animations. Please fee
 ## Requirements
 
 + zemberek.jar
-+ vermto3D jar.
-+ Java3D
++ vrmlto3D.jar
++ Java3D.jar
 + Eclipse
 
+## Modules
+Program has different modules. Sign Animation Module is for Sign Language. Education module is targeted for sign language students. Hand module is for hand-only sign language.
+
+<p>
+<img src="src/assets/demo/start.PNG"/>
+</p>
 
 ## Build Setup
 
@@ -34,7 +40,7 @@ This project can be developed further by adding more sign animations. Please fee
 
 A full-featured lnaguage processor used. [Unmaintained](https://github.com/ahmetaa/old-zemberek-unmaintained)
 
-# Java3D and vrml
+# Vrml Loader
 
 A full-featured vrml imported included for 3D models and animations.(http://www.java2s.com/Code/Java/3D/LoadingaVRMLfile.htm)
 
